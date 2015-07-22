@@ -1,0 +1,37 @@
+/* Select by tagname */
+h1 {
+  color: white;
+  background-color: black;
+  font: geneva;
+  border-bottom: 10px solid gray;
+}
+
+/* Select by classname */
+.header-alt {
+  border-bottom: 10px solid gray;
+  font: geneva;
+  font-size: 40;
+  background-color: black;
+  color: white;
+}
+
+/* Select a single element by its ID */
+#header-primary {
+  text-transform: uppercase;
+}
+
+/* Select all H1s AND all .header-alts */
+h1,
+.header-alt {
+  border-top: 10px solid gray;
+  font-size: 25;
+}
+
+/* Use descendent selectors */
+div p {
+  font-style: italic;
+  font: geneva;
+}
+
+/* Target all p's and a's inside of divs */
+div p, div a {}
