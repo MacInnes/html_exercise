@@ -1,36 +1,65 @@
 /* Select by tagname */
 h1 {
-  color: white;
-  background-color: black;
-  font: geneva;
-  border-bottom: 10px solid gray;
+  font: arial;
+  border: 10px;
+  border-color: #002966;
+  text-align: center;
 }
 
 /* Select by classname */
 .header-alt {
-  border-bottom: 10px solid gray;
-  font: geneva;
+  border: 10px solid black;
+  font: arial;
   font-size: 40;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #0066FF;
+  text-align: center;
 }
 
 /* Select a single element by its ID */
 #header-primary {
   text-transform: uppercase;
+  color: white;
+  text-align: center;
+  position: center;
+  background-color: #002966;
 }
 
 /* Select all H1s AND all .header-alts */
 h1,
 .header-alt {
-  border-top: 10px solid gray;
+  border: 10px;
+  border-color: #002966;
   font-size: 25;
+  float: center;
+  background-color: #002966;
 }
 
 /* Use descendent selectors */
 div p {
   font-style: italic;
-  font: geneva;
+  font: arial;
+  background-color: #003D99;
+  color: white;
+  border: 2px;
+  border-color: #002966;
+}
+
+p {
+	text-align: center;
+}
+
+.outside {
+	color: white;
+	background-color: #0099FF;
+}
+
+body {
+	background-color: #0066FF;
+}
+
+h1 {
+	background-color: #0099FF;
 }
 
 /* Target all p's and a's inside of divs */
